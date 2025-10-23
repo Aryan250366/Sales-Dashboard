@@ -1,28 +1,49 @@
 # Sales Performance Dashboard
 
-Power BI dashboard analyzing regional sales performance using SQL and Python.
+A simple data analysis project built to study sales patterns and regional performance using **Python, SQL, and Power BI**.  
+The goal of this project is to understand which regions, categories, and customers contribute most to the company’s profit.
 
-## Tools Used
-- Power BI
-- SQL
-- Python (Pandas, Matplotlib)
+---
 
-## Steps Performed
-1. Cleaned the dataset using Python (handled missing values and duplicates).
-2. Used SQL queries to extract and aggregate key sales KPIs.
-3. Visualized insights (Power BI & Matplotlib) to support business decisions.
+### 🎯 Project Objectives
+- Clean and prepare the sales dataset using Python (Pandas)
+- Extract key metrics (KPIs) using SQL queries
+- Build a Power BI dashboard to visualize trends and insights
 
-## Key Insights (example)
-- West region gave maximum profit in sample datasets.
-- Repeat customers often contribute a large portion of revenue.
+---
 
-## How to use
-1. Download `Superstore.csv` from Kaggle: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
-2. Put `Superstore.csv` into the `data/` folder.
-3. Open `analysis.ipynb` in Jupyter Notebook to run the analysis.
-4. Optional: Open `dashboard.pbix` in Power BI (if added later).
+### 🧩 Key Findings
+- The **West** region gives the highest total sales and profit  
+- **Repeat customers** generate a major share of revenue  
+- **Office Supplies** and **Technology** are among the best-performing categories
 
-## Files
-- `analysis.ipynb` — Jupyter notebook with basic analysis steps.
-- `queries.sql` — Sample SQL queries to aggregate sales KPIs.
-- `data/` — Put `Superstore.csv` here.
+---
+
+### 🛠️ Tools & Technologies
+- **Python:** Pandas, Matplotlib  
+- **SQL:** For KPI extraction and aggregation  
+- **Power BI:** Interactive dashboard (to be added soon)  
+- **Excel:** For basic review and data understanding
+
+---
+
+### 🧰 How to Run
+1. Download the dataset from [Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)  
+2. Place `Superstore.csv` inside the `data` folder  
+3. Open the `analysis.ipynb` file in VS Code or Jupyter Notebook  
+4. Run all cells to generate insights and graphs
+
+---
+
+### 📄 Files Included
+- `analysis.ipynb` – Main notebook with data cleaning and visualizations  
+- `queries.sql` – SQL file containing KPI queries  
+- `data/Sample - Superstore.csv` – Dataset used for analysis  
+- `README.md` – This project summary file
+
+---
+
+### 👤 Author
+**Aryan Vaid**  
+Aspiring Data Analyst | Python • SQL • Power BI  
+GitHub: [Aryan250366](https://github.com/Aryan250366)
