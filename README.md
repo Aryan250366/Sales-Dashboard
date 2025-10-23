@@ -18,7 +18,10 @@ The goal of this project is to understand which regions, categories, and custome
 - **Office Supplies** and **Technology** are among the best-performing categories
 
 ---
-
+### 📸 Dashboard Preview 
+ ![Dashboard preview](dashboard_preview.png)
+ 
+---
 ### 🛠️ Tools & Technologies
 - **Python:** Pandas, Matplotlib  
 - **SQL:** For KPI extraction and aggregation  
